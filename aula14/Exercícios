@@ -1,0 +1,32 @@
+1)Na gestão de mudanças, quais são as características dos tipos de mudança abaixo?
+
+* Mudança padrão:
+ - É uma mudança que se tornou rotineira, ja é pré-autorizada pelo gerenciamento de mudanças, geralmente 
+   a execução dessa alteração é mais rapida.
+
+* Mudança normal:
+ - É uma mudança para qual não existe um script já pronto, e precisa passar pelo fluxo mais extenso para ser autorizada e
+planejada antes de sua execução.
+
+* Mudança de emergência:
+  - É aquela que precisa ser implementada rapidamente para resolver incidentes; nem sempre será possivel realizar todos os 
+  testes. Esse tipo de mudança é tratado pelo comitê consultivo de mudanças emergenciais.
+  
+ 
+ 2) Quem são os participantes de um comitê consultivo de mudanças?
+    - O comitê é formado de acordo com as mudanças a serem descutidas, é adequado que o gerente de mudanças lidere o comitê;
+      alguns representantes podem ser permanentes no comitê e outros não. Por exemplo: para avaliar  e aprovar mudanças em um 
+      sistema, é certo que a autoridade responsabilizada por este serviço estará presente nas reuniões do comitê que abordarem 
+      o mesmo, Já o coordenador do departamento financeiro é convidado apenas quando a mudança impacta aspectos Financeiros.
+    * Exemplo de participantes que podem estar envolvidos:
+       -Fornecedores;
+       -Gerente de problemas;
+       -Gerente de nivel de serviço;
+       -Equipe de relações com cliente;
+       -etc.
+  
+  3)Dê 3 exemplos de regras usuais para que os desenvolvedores realizem mudanças nas funcionalidades de um software.
+    
+
+ 
+   
