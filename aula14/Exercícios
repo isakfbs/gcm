@@ -26,29 +26,48 @@ planejada antes de sua execução.
        -etc.
   
 3)Dê 3 exemplos de regras usuais para que os desenvolvedores realizem mudanças nas funcionalidades de um software.
-    
+  *Criar um branch do projeto, implementar a mundança, dar commit e criar um pull-request.
+
 4) Cite 4 exemplos de ferramentas de controle de versão de código-fonte.
-
+  *-Subversion
+   -Git
+   -Mercurial
+   -CVS
+   
 5) O que é integração contínua?
-
+ *É uma pratica de desenvolvimento de software, onde membros de um time integram seu trabalho frequentemente.
+ 
 6) Quais são os benefícios da integração contínua?
+ *reduz problemas de integração e permite que o software seja desenvolvido de forma mais rapida e coesa.
 
 7) Cite 2 exemplos de ferramentas de software que podem dar apoio à gestão
 de mudanças.
-
+ *issue management , 
 8) Cite 2 exemplos de ferramentas de software para a realização de
 integração contínua.
+ *-Bamboo
+  -TravisCI
 
 9) No que consiste fazer o gerenciamento de releases?
+  *Consiste no empacotamento de um sistema para promovelo de desenvolvimento para QA e posteriormente para produção.
 
 10) Cite 3 princípios do gerenciamento de releases.
+ *-Devem ser identificados por um ID de versão imutavel.
+  -O gerenciamento do release deve ser rápido e confiavel para facilitar o desenvolvimento interativo.
+  -O conteudo do realease deve ser bem compreendido, incluindo o rastreamento de requisitos.
 
 11) Explique como é feita a identificação de um release utilizando o
 versionamento semântico, e qual é o significado de cada parte desta
 identificação.
+ * e identificada por uma sequencia de 3 numeros major.minor.patch; o identificador 
+ 'major' deve ser alterado somente quando as alterações tornam a API incompativel com a versão anterior;
+ 'minor' deve ser alterado quando as alteraçoes são realizadas para adicionar funcionalidades, mantendo a 
+  compatibilidade com vesões anteriores
+ 'patch' deve ser alterado quando as alteraçoes sao realizadas para corrigir bugs.
 
 12) Dê um exemplo de identificação de um release utilizando o versionamento
 semântico.
+ *novoprojeto.0.1.012
 
 13) Cite um benefício obtido com a utilização de uma ferramenta como o
 Codenvy.
