@@ -1,0 +1,132 @@
+1)	O que é o gerenciamento de configuração de software?
+  É a disciplina de avaliação, coordenação, aprovação ou rejeição, e implementação de 
+  mudanças em artefatos que são usados para construir e manter sistemas de software.
+
+2)Cite 6 exemplos de ITENS DE CONFIGURAÇÃO de um projeto de desenvolvimento de software.
+	Código fonte
+	Documentação de requisitos
+	Especificação e projeto
+	Plano de testes manuais
+	Hardware
+	design
+
+3)Cite 3 exemplos de BASELINES em um projeto de desenvolvimento de software.
+	Modelagem de negócio,
+	Requisitos
+	Implementação 
+
+4) Cite 4 exemplos de ferramentas de controle de versão de código-fonte.	
+	Clear Case
+	Subversion
+	Git
+	CVS
+  
+5) Referente a ferramentas de controle de versão, como elas podem ser
+classificadas de acordo com sua arquitetura? Descreva as diferenças entre
+estas arquiteturas.
+
+	Arquitetura centalizada a possui um único repositório e a várias copias de trabalho que se 
+  comunicam apenas através do repositório cental.
+  
+	Arquitetura distribuída, possui vários repositórios autônomos e independentes, um para cada desenvolvedor. 
+
+
+6) Cite uma vantagem de uma ferramenta de controle de versão de arquitetura descentralizada sobre as ferramentas de arquitetura centralizada.
+  Rapidez, as operações são processadas localmente. Não necessário passar pela rede e contatar
+  o servidor local para fazer um commit por exemplo.
+
+	
+7) Quando você utiliza o GitHub através da interface web da aplicação, está
+sendo criado algum repositório local no seu computador? Explique sua
+resposta.
+
+8) Cite 5 operações que são comuns às ferramentas de controle de versão de
+código-fonte.
+ 	Clone repository,
+	Commit,
+	Update,
+	Pull request,
+	Push.
+  
+ //Prova2
+ 
+ 1)Na gestão de mudanças, quais são as características dos tipos de mudança abaixo?
+
+* Mudança padrão:
+ - É uma mudança que se tornou rotineira, ja é pré-autorizada pelo gerenciamento de mudanças, geralmente 
+   a execução dessa alteração é mais rapida.
+
+* Mudança normal:
+ - É uma mudança para qual não existe um script já pronto, e precisa passar pelo fluxo mais extenso para ser autorizada e
+planejada antes de sua execução.
+
+* Mudança de emergência:
+  - É aquela que precisa ser implementada rapidamente para resolver incidentes; nem sempre será possivel realizar todos os 
+  testes. Esse tipo de mudança é tratado pelo comitê consultivo de mudanças emergenciais.
+  
+ 
+ 2) Quem são os participantes de um comitê consultivo de mudanças?
+    - O comitê é formado de acordo com as mudanças a serem descutidas, é adequado que o gerente de mudanças lidere o comitê;
+      alguns representantes podem ser permanentes no comitê e outros não. Por exemplo: para avaliar  e aprovar mudanças em um 
+      sistema, é certo que a autoridade responsabilizada por este serviço estará presente nas reuniões do comitê que abordarem 
+      o mesmo, Já o coordenador do departamento financeiro é convidado apenas quando a mudança impacta aspectos Financeiros.
+    * Exemplo de participantes que podem estar envolvidos:
+       -Fornecedores;
+       -Gerente de problemas;
+       -Gerente de nivel de serviço;
+       -Equipe de relações com cliente;
+       -etc.
+  
+3)Dê 3 exemplos de regras usuais para que os desenvolvedores realizem mudanças nas funcionalidades de um software.
+  *Criar um branch do projeto, implementar a mundança, dar commit e criar um pull-request.
+
+4) Cite 4 exemplos de ferramentas de controle de versão de código-fonte.
+  *-Subversion
+   -Git
+   -Mercurial
+   -CVS
+   
+5) O que é integração contínua?
+ *É uma pratica de desenvolvimento de software, onde membros de um time integram seu trabalho frequentemente.
+ 
+6) Quais são os benefícios da integração contínua?
+ *reduz problemas de integração e permite que o software seja desenvolvido de forma mais rapida e coesa.
+
+7) Cite 2 exemplos de ferramentas de software que podem dar apoio à gestão
+de mudanças.
+ *issue management , 
+8) Cite 2 exemplos de ferramentas de software para a realização de
+integração contínua.
+ *-Bamboo
+  -TravisCI
+
+9) No que consiste fazer o gerenciamento de releases?
+  *Consiste no empacotamento de um sistema para promovelo de desenvolvimento para QA e posteriormente para produção.
+
+10) Cite 3 princípios do gerenciamento de releases.
+ *-Devem ser identificados por um ID de versão imutavel.
+  -O gerenciamento do release deve ser rápido e confiavel para facilitar o desenvolvimento interativo.
+  -O conteudo do realease deve ser bem compreendido, incluindo o rastreamento de requisitos.
+
+11) Explique como é feita a identificação de um release utilizando o
+versionamento semântico, e qual é o significado de cada parte desta
+identificação.
+ * e identificada por uma sequencia de 3 numeros major.minor.patch; o identificador 
+ 'major' deve ser alterado somente quando as alterações tornam a API incompativel com a versão anterior;
+ 'minor' deve ser alterado quando as alteraçoes são realizadas para adicionar funcionalidades, mantendo a 
+  compatibilidade com vesões anteriores
+ 'patch' deve ser alterado quando as alteraçoes sao realizadas para corrigir bugs.
+
+12) Dê um exemplo de identificação de um release utilizando o versionamento
+semântico.
+ *novoprojeto.0.1.012
+
+13) Cite um benefício obtido com a utilização de uma ferramenta como o
+Codenvy.
+  Desenvolvimento de código que pode ser acessada remotamente dispensando a necessidade da 
+  instalação de uma IDE em uma máquina local.
+
+14) Cite um benefício obtido com a utilização de uma ferramenta como o
+Heroku.
+  Serviço em nuvem que hospeda uma aplicação em ambiente web de maneira que a mesma fique disponível online.
+
